@@ -2,13 +2,14 @@
 layout: post
 title:  "windows环境用jekyll搭建博客详细步骤"
 date:   2018-01-09 19:21:19 +0800
+author: "廖艳丽"
 categories: jekyll update
 ---
 
 ### window环境准备
 1. rubyinstaller 下载及安装 https://rubyinstaller.org/downloads/ 记得全部勾选
-2. Ruby DevKit 下载devkit压缩包 https://rubyinstaller.org/downloads/ 解压该压缩包，进入到该目录，
-3. 解压该DevKit压缩包，用命令行(cmd)进入到该目录如：cd /e:/devit 
+2. Ruby DevKit 下载devkit压缩包 https://rubyinstaller.org/downloads/ 解压该压缩包，进入到该目录
+3. 解压该DevKit压缩包，用命令行(cmd)进入到该目录，如：cd /e:/devit 
 4. 执行ruby dk.rb init 会看到找到ruby的安装目录，如果看不到请手动修改该目录下confit.yml的ruby安装目录，注意格式 - D:\Ruby23-x64，带有横线
 5. 执行ruby dk.rb install
 6. 执行gem install jekyll 用jekyll -v检测是否安装成功
